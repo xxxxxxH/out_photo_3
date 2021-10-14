@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/take"
+        style="@style/photoDialogTv"
+        android:text="@string/dialog_item1"
+        app:drawableStartCompat="@mipmap/take" />
+
+
+    <TextView
+        android:id="@+id/choose"
+        style="@style/photoDialogTv"
+        android:text="@string/dialog_item2"
+        app:drawableStartCompat="@mipmap/choose" />
+
+
+    <TextView
+        android:id="@+id/cancel"
+        style="@style/photoDialogTv"
+        android:text="@string/dialog_cancel"
+        app:drawableStartCompat="@mipmap/cancleidalog" />
+</LinearLayout>
